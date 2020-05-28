@@ -1,4 +1,8 @@
 package org.daimhim.slice
 
-class BuriedPointEvent {
+import android.annotation.TargetApi
+
+@Target(AnnotationTarget.FUNCTION)
+
+annotation class BuriedPointEvent {
 }
