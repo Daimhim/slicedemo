@@ -1,3 +1,4 @@
 rootProject.name='slicedemo'
+include ':twoguards_annotation'
+include ':twoguards_compiler'
 include ':app'
-include ':aspectslicelib'
